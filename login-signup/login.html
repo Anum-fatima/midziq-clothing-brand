@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="stylelog.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <a id="logo"> MIDZIQ CLOTHINGS </a>
+            <a href="../fashion/women/clothing/index.html">women</a>
+            <a href="../fashion/men/clothing.html">men</a>
+            <a href="fashion/women/accessories/bags.html"></a>
+            <a href="login-signup/login.html">login-signup</a>
+            <a href="login-signup/index.html">contactus</a>
+            <input placeholder="search MIDZIQ">
+            <button>search</button>
+        </div>
+    </header>
+
+    <form action="https://www.example.com/login.php"method="get">
+       <div id="form">
+        <fieldset id="info">
+            <legend>personal information</legend>
+        <p>first name;
+            <input type="text" name="first name"size="15" maxlength="30" required/>
+            <br/>
+            <br/>
+            last name;
+            <input type="text" name="last name" size="15" maxlength="30"/>
+        </p>
+        <p>
+            password;
+            <input type="password" name="password" size="15" maxlength="30"/>
+        </p>
+        <p>
+            reenter password;
+            <input type="password" name="password" size="15" maxlength="30"/>
+        </p>
+        </fieldset>
+        <fieldset id="detail">
+            <legend>Details</legend>
+        <p>
+            gender;
+
+            <input type="radio" name="gender" value="m"/> male 
+            <input type="radio" name="gender" value="f"/> female
+            </p>
+            <p>
+                interest;
+                <input type="checkbox" name=" interest" value="men"/> men'sclothing 
+                <input type="checkbox" name="interest" value="wmm"/> women'sclothing
+                <input type="checkbox" name="interest" value="acc"/> accessories
+                </p>
+                <p>
+                    date of birth;
+                    <input type="date" name="dob"/>
+                    </p>
+                    <p>
+                        please enter your email address;
+                        <input type="email" name="email"/>
+                        </p>
+                        <p>
+                            please enter your website;
+                            <input type="url" name="profile"/>
+                        </p>
+                        <p>
+                            nationality;
+                            <select name="countries" multiple>
+                                <option>pakistan</option>
+                                <option>usa</option>
+                                <option>china</option>
+                                <option>india</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <input type="submit"/>
+                        </p>
+                        <p>
+                            <input type="file" name="dp"/>
+                            <input type="submit" value="upload"/>
+                            </p>
+        </fieldset>
+        <fieldset id="comm">
+            <legend>your comments here</legend>
+                            <p>
+                                comments;
+                                <input type="comments" rows="4" cols="30">
+                            </p>
+                        </fieldset>
+       </div>
+    </form> 
+    <footer>
+        <div>
+            <p>Thank you for visiting our brand MIDZIQ..</p>
+        </div>
+    </footer>
+     </body>
+</html>

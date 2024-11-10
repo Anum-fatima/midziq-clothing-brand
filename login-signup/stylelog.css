@@ -1,0 +1,76 @@
+/* *{
+    padding: 0;
+    margin: 0;
+
+} */
+ body {
+    background-color: pink;
+ }
+
+#navbar {
+    background-color: palevioletred;
+    height: 60px;
+    padding: 20px;
+   
+}
+
+#logo {
+    color: rgb(105, 17, 105);
+    font-size: 30px;
+    font-weight:bold ;
+}
+
+a{
+   margin-right: 110px;
+   text-decoration: none;
+   font-size: 20px;
+   color:rgb(73, 11, 73);
+   font-weight: 800;
+   
+}
+button {
+    background-color: rgb(102, 34, 165);
+}
+
+#form{
+    justify-items: center;
+    background-color: plum;
+    color: purple;
+}
+
+#info {
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 5%;
+    margin-top: 4px;
+
+}
+
+#detail {
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 5%;
+    margin-top: 4px;
+
+}
+
+#comm {
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 5%;
+    margin-top: 4px;
+
+
+}
+footer {
+    /* background-attachment: fixed; */
+    background-color: rgb(117, 74, 156);
+    font-size: larger;
+    color: rgb(95, 8, 37);
+    margin-top: 10px;
+    width: auto;
+    height: 200px;
+    align-content: center;
+    justify-items: center;
+    font-weight: bolder;
+}
